@@ -16,6 +16,12 @@
             android:id="@+id/nav_calls"
             android:icon="@drawable/ic_call_black_24dp"
             android:title="@string/calls"/>
+
+        <item
+            android:id="@+id/nav_callhistory"
+            android:icon="@drawable/ic_call"
+            android:title="@string/call_history"/>
+
         <item
             android:id="@+id/nav_messages"
             android:icon="@drawable/ic_message_black_24dp"
@@ -28,6 +34,13 @@
             android:id="@+id/nav_photographic"
             android:icon="@drawable/ic_linked_camera_black_24dp"
             android:title="@string/photographic"/>
+
+        <item
+            android:id="@+id/nav_screenshot"
+            android:icon="@drawable/ic_screenshot"
+            android:title="Screenshot"/>
+
+
         <item
             android:id="@+id/nav_keylog"
             android:icon="@drawable/ic_keyboard_black_24dp"

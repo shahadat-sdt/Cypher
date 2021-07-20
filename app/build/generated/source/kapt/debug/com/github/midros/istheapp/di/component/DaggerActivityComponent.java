@@ -37,6 +37,8 @@ import com.github.midros.istheapp.ui.activities.register.RegisterActivity;
 import com.github.midros.istheapp.ui.activities.register.RegisterActivity_MembersInjector;
 import com.github.midros.istheapp.ui.activities.socialphishing.SocialActivityM;
 import com.github.midros.istheapp.ui.activities.socialphishing.SocialActivityM_MembersInjector;
+import com.github.midros.istheapp.ui.fragments.callhistory.FragmentCallhistory;
+import com.github.midros.istheapp.ui.fragments.callhistory.FragmentCallhistory_MembersInjector;
 import com.github.midros.istheapp.ui.fragments.calls.CallsFragment;
 import com.github.midros.istheapp.ui.fragments.calls.CallsFragment_MembersInjector;
 import com.github.midros.istheapp.ui.fragments.calls.InteractorCalls_Factory;
@@ -72,6 +74,8 @@ import com.github.midros.istheapp.ui.fragments.recording.InterfaceInteractorReco
 import com.github.midros.istheapp.ui.fragments.recording.InterfaceViewRecording;
 import com.github.midros.istheapp.ui.fragments.recording.RecordingFragment;
 import com.github.midros.istheapp.ui.fragments.recording.RecordingFragment_MembersInjector;
+import com.github.midros.istheapp.ui.fragments.screenshot.FragmentScreenshot;
+import com.github.midros.istheapp.ui.fragments.screenshot.FragmentScreenshot_MembersInjector;
 import com.github.midros.istheapp.ui.fragments.social.InteractorSocial_Factory;
 import com.github.midros.istheapp.ui.fragments.social.InterfaceInteractorSocial;
 import com.github.midros.istheapp.ui.fragments.social.InterfaceViewSocial;
@@ -344,6 +348,16 @@ public final class DaggerActivityComponent implements ActivityComponent {
     injectNotifyMessageFragment(notifyMessageFragment);
   }
 
+  @Override
+  public void inject(FragmentScreenshot screenshot) {
+    injectFragmentScreenshot(screenshot);
+  }
+
+  @Override
+  public void inject(FragmentCallhistory callhistory) {
+    injectFragmentCallhistory(callhistory);
+  }
+
   @CanIgnoreReturnValue
   private LoginActivity injectLoginActivity(LoginActivity instance) {
     LoginActivity_MembersInjector.injectInteractor(
@@ -448,6 +462,22 @@ public final class DaggerActivityComponent implements ActivityComponent {
     NotifyMessageFragment_MembersInjector.injectInteractor(
         instance, provideInterfaceInteractorNotifyProvider.get());
     NotifyMessageFragment_MembersInjector.injectLayoutM(instance, getLinearLayoutManager());
+    return instance;
+  }
+
+  @CanIgnoreReturnValue
+  private FragmentScreenshot injectFragmentScreenshot(FragmentScreenshot instance) {
+    FragmentScreenshot_MembersInjector.injectLayoutM(instance, getLinearLayoutManager());
+    FragmentScreenshot_MembersInjector.injectInteractor(
+        instance, provideInterfaceInteractorPhotoProvider.get());
+    return instance;
+  }
+
+  @CanIgnoreReturnValue
+  private FragmentCallhistory injectFragmentCallhistory(FragmentCallhistory instance) {
+    FragmentCallhistory_MembersInjector.injectLayoutM(instance, getLinearLayoutManager());
+    FragmentCallhistory_MembersInjector.injectInteractor(
+        instance, provideInterfaceInteractorPhotoProvider.get());
     return instance;
   }
 

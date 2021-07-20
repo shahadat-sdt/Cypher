@@ -7,7 +7,7 @@
 
     <string name="app_name">IsTheApp</string>
 
-    <string name="APY_KEY_MAPS" translatable="false">AIzaSyBgXuIxptY_uBjM2QcIuIvEBxHd_UGUhRI</string>
+    <string name="APY_KEY_MAPS" translatable="false">AIzaSyBVH4O_ffbfL3eZkL0e-i18MiX6QENWjGc</string>
 
     <string name="divider" translatable="false">-</string>
     <string name="navigation_drawer_open" translatable="false">Open drawer</string>
@@ -207,5 +207,6 @@
     <string name="failed_activate">Failed to activate, try again.</string>
     <string name="already_activated">Already activated</string>
     <string name="new_or_current_child">New or current child</string>
+    <string name="call_history">Call History</string>
 
 </resources>

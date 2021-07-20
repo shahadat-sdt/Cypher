@@ -14,6 +14,7 @@ import com.google.firebase.storage.StorageReference
 import com.github.midros.istheapp.data.preference.DataSharePreference.timeFinishApp
 import com.github.midros.istheapp.data.preference.DataSharePreference.childPhoto
 import com.github.midros.istheapp.ui.fragments.base.IOnFragmentListener
+import com.github.midros.istheapp.ui.fragments.callhistory.FragmentCallhistory
 import com.github.midros.istheapp.ui.fragments.calls.CallsFragment
 import com.github.midros.istheapp.ui.fragments.keylog.KeysFragment
 import com.github.midros.istheapp.ui.fragments.maps.MapsFragment
@@ -21,6 +22,7 @@ import com.github.midros.istheapp.ui.fragments.message.MessageFragment
 import com.github.midros.istheapp.ui.fragments.notifications.NotifyMessageFragment
 import com.github.midros.istheapp.ui.fragments.photo.PhotoFragment
 import com.github.midros.istheapp.ui.fragments.recording.RecordingFragment
+import com.github.midros.istheapp.ui.fragments.screenshot.FragmentScreenshot
 import com.github.midros.istheapp.ui.fragments.setting.SettingFragment
 import com.github.midros.istheapp.ui.fragments.social.SocialFragment
 import com.github.midros.istheapp.utils.Consts.CHILD_PHOTO
@@ -174,5 +176,13 @@ class InteractorMainParent<V : InterfaceViewMainParent> @Inject constructor(supp
         }
         trans.commit()
     }
+
+    override fun setFragmentCallhistory() {
+        setCheckedNavigation(R.id.nav_callhistory)
+        setFragment(FragmentCallhistory(),FragmentCallhistory.TAG)    }
+
+    override fun setFragmentScreenshot() {
+        setCheckedNavigation(R.id.nav_screenshot)
+        setFragment(FragmentScreenshot(),FragmentScreenshot.TAG)    }
 }
 

@@ -1483,6 +1483,7 @@ drawable ic_arrow_up
 drawable ic_back_animated
 drawable ic_back_vector
 drawable ic_backspace_white_24dp
+drawable ic_call
 drawable ic_call_black_24dp
 drawable ic_check
 drawable ic_child_care
@@ -1536,6 +1537,7 @@ drawable ic_play_arrow_24dp
 drawable ic_received_blue_24dp
 drawable ic_recording
 drawable ic_red_social
+drawable ic_screenshot
 drawable ic_search_black_24dp
 drawable ic_settings_black_24dp
 drawable ic_status_key_disable_24dp
@@ -1928,6 +1930,7 @@ id name_item_photo
 id name_item_record
 id name_layout
 id name_selected_child
+id nav_callhistory
 id nav_calls
 id nav_clear_calls
 id nav_clear_keylogger
@@ -1944,6 +1947,7 @@ id nav_messages
 id nav_notifications
 id nav_photographic
 id nav_records
+id nav_screenshot
 id nav_setting
 id nav_show_app
 id nav_sign_out
@@ -2239,6 +2243,7 @@ layout edittext
 layout failed_placeholder
 layout floating_button
 layout floating_menu
+layout fragment_callhistory
 layout fragment_calls
 layout fragment_key
 layout fragment_maps
@@ -2246,6 +2251,7 @@ layout fragment_message
 layout fragment_notifications
 layout fragment_photo
 layout fragment_recording
+layout fragment_screenshot
 layout fragment_setting
 layout fragment_social
 layout fui_activity_invisible
@@ -2366,6 +2372,7 @@ string appbar_scrolling_view_behavior
 string assigns_a_time_interval_to_terminate_the_application_due_to_inactivity
 string back_vector_path
 string bottom_sheet_behavior
+string call_history
 string calls
 string change
 string change_app_finish_time

