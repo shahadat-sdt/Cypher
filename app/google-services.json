@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "910319536320",
+    "project_id": "istheapp2-7d247",
+    "storage_bucket": "istheapp2-7d247.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:910319536320:android:2918413f37792291f4c525",
+        "android_client_info": {
+          "package_name": "com.github.midros.istheapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "910319536320-ul0201iibbgh8pieoc4bm8cpv0cghvk7.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC437M_mLic8CCnFw2AN54XFh7jeogZaio"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "910319536320-ul0201iibbgh8pieoc4bm8cpv0cghvk7.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
