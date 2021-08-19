@@ -2,14 +2,10 @@ package com.github.midros.istheapp.ui.fragments.screenshot
 
 import android.annotation.SuppressLint
 import android.os.Bundle
-import android.widget.LinearLayout
-import android.widget.TextView
 import androidx.constraintlayout.widget.ConstraintLayout
 import androidx.coordinatorlayout.widget.CoordinatorLayout
 import androidx.recyclerview.widget.LinearLayoutManager
 import cn.pedant.SweetAlert.SweetAlertDialog
-import com.github.clans.fab.FloatingActionButton
-import com.github.clans.fab.FloatingActionMenu
 import com.github.midros.istheapp.R
 import com.github.midros.istheapp.data.model.DataDelete
 import com.github.midros.istheapp.data.preference.DataSharePreference.statePersmissionPhotoShow
@@ -120,12 +116,14 @@ class FragmentScreenshot : BaseFragment(R.layout.fragment_screenshot), Interface
     }
 
 
-
     override fun onButtonClicked(buttonCode: Int) {
-        when (buttonCode){
+        when (buttonCode) {
             CustomToolbar.BUTTON_BACK -> interactor.setSearchQuery("")
             CustomToolbar.BUTTON_ACTION_DELETE -> interactor.onDeleteData(dataList)
-            CustomToolbar.BUTTON_STATE -> showSnackbar(if (toolbar.statePermission) R.string.enable_photo else R.string.disable_photo,main)
+            CustomToolbar.BUTTON_STATE -> showSnackbar(
+                if (toolbar.statePermission) R.string.enable_photo else R.string.disable_photo,
+                main
+            )
             CustomToolbar.BUTTON_CHILD_USER -> changeChild(PhotoFragment.TAG)
             else -> super.onButtonClicked(buttonCode)
         }

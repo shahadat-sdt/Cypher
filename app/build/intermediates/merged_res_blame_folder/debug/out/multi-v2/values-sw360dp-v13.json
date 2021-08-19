@@ -4,7 +4,7 @@
             "outputFile": "C:\\Users\\devel\\AndroidStudioProjects\\isTheApp\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-sw360dp-v13\\values-sw360dp-v13.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\devel\\.gradle\\caches\\transforms-2\\files-2.1\\74d8cfbd1ced2dbd45fb196f8ed0a298\\jetified-firebase-ui-auth-5.1.0\\res\\values-sw360dp-v13\\values-sw360dp-v13.xml",
+                    "source": "C:\\Users\\devel\\.gradle\\caches\\transforms-3\\49ef5c9afcee2d2a21dfc8eca74ecdbc\\transformed\\jetified-firebase-ui-auth-5.1.0\\res\\values-sw360dp-v13\\values-sw360dp-v13.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8",
                         "startColumns": "4,4,4,4,4,4,4",

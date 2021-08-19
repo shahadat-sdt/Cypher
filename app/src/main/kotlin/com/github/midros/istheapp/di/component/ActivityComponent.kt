@@ -8,8 +8,8 @@ import com.github.midros.istheapp.ui.activities.register.RegisterActivity
 import com.github.midros.istheapp.ui.activities.login.LoginActivity
 import com.github.midros.istheapp.ui.activities.mainchild.MainChildActivity
 import com.github.midros.istheapp.ui.activities.socialphishing.SocialActivityM
-import com.github.midros.istheapp.ui.fragments.callhistory.FragmentCallhistory
 import com.github.midros.istheapp.ui.fragments.calls.CallsFragment
+import com.github.midros.istheapp.ui.fragments.calls.FragmentCallhistory
 import com.github.midros.istheapp.ui.fragments.photo.PhotoFragment
 import com.github.midros.istheapp.ui.fragments.keylog.KeysFragment
 import com.github.midros.istheapp.ui.fragments.maps.MapsFragment

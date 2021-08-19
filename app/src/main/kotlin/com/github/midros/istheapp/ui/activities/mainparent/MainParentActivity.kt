@@ -27,8 +27,8 @@ import com.github.midros.istheapp.ui.activities.base.BaseActivity
 import com.github.midros.istheapp.ui.activities.lock.LockActivity
 import com.github.midros.istheapp.ui.activities.login.LoginActivity
 import com.github.midros.istheapp.ui.fragments.base.IOnFragmentListener
-import com.github.midros.istheapp.ui.fragments.callhistory.FragmentCallhistory
 import com.github.midros.istheapp.ui.fragments.calls.CallsFragment
+import com.github.midros.istheapp.ui.fragments.calls.FragmentCallhistory
 import com.github.midros.istheapp.ui.fragments.keylog.KeysFragment
 import com.github.midros.istheapp.ui.fragments.maps.MapsFragment
 import com.github.midros.istheapp.ui.fragments.message.MessageFragment

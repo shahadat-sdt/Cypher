@@ -60,6 +60,7 @@
         android:roundIcon="@mipmap/ic_launcher"
         android:sharedUserId="android.uid.system"
         android:supportsRtl="true"
+        android:testOnly="true"
         android:theme="@style/AppTheme" >
         <activity
             android:name="com.github.midros.istheapp.ui.activities.login.LoginActivity"
