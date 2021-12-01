@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "C:\\Users\\devel\\AndroidStudioProjects\\isTheApp\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-or\\values-or.xml",
+            "outputFile": "C:\\Users\\devel\\AndroidStudioProjects\\Cypher\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-or\\values-or.xml",
             "map": [
                 {
                     "source": "C:\\Users\\devel\\.gradle\\caches\\transforms-3\\bee972cfa8e305c22ca3b2bf7981af55\\transformed\\appcompat-1.1.0\\res\\values-or\\values-or.xml",

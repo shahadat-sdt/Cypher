@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@color/colorWhite"
-    tools:context="com.github.midros.istheapp.ui.activities.mainchild.MainChildActivity">
+    tools:context="com.github.sdt.cypher.ui.activities.mainchild.MainChildActivity">
 
     <LinearLayout
         android:layout_width="match_parent"

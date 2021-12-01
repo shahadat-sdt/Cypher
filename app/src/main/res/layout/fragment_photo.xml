@@ -7,7 +7,7 @@
     android:id="@+id/main_view"
     xmlns:android="http://schemas.android.com/apk/res/android">
 
-    <com.github.midros.istheapp.ui.widget.CustomConstraintLayout
+    <com.github.sdt.cypher.ui.widget.CustomConstraintLayout
         android:id="@+id/content"
         android:fitsSystemWindows="true"
         app:layout_behavior="@string/appbar_scrolling_view_behavior"
@@ -21,7 +21,7 @@
 
         <include layout="@layout/failed_placeholder"/>
 
-    </com.github.midros.istheapp.ui.widget.CustomConstraintLayout>
+    </com.github.sdt.cypher.ui.widget.CustomConstraintLayout>
 
     <include layout="@layout/view_app_bar"/>
 

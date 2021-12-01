@@ -1,4 +1,4 @@
-<com.github.midros.istheapp.ui.widget.CustomRecyclerView
+<com.github.sdt.cypher.ui.widget.CustomRecyclerView
     android:id="@+id/list"
     xmlns:android="http://schemas.android.com/apk/res/android"
     style="@style/Match"

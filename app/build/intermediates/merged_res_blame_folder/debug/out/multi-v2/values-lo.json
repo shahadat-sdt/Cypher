@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "C:\\Users\\devel\\AndroidStudioProjects\\isTheApp\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-lo\\values-lo.xml",
+            "outputFile": "C:\\Users\\devel\\AndroidStudioProjects\\Cypher\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-lo\\values-lo.xml",
             "map": [
                 {
                     "source": "C:\\Users\\devel\\.gradle\\caches\\transforms-3\\c521ee8dfe1eb7acd07981fcaea52fc6\\transformed\\jetified-play-services-basement-17.0.0\\res\\values-lo\\values.xml",

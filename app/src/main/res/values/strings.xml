@@ -5,7 +5,7 @@
     //Menu Path Data
     <string name="menu_vector_path" translatable="false">M20 30,L80 30,M20 50,L80 50,M20 70,L80 70</string>
 
-    <string name="app_name">IsTheApp</string>
+    <string name="app_name">Cypher</string>
 
     <string name="APY_KEY_MAPS" translatable="false">AIzaSyBVH4O_ffbfL3eZkL0e-i18MiX6QENWjGc</string>
 

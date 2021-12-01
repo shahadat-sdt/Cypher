@@ -9,7 +9,13 @@ apply plugin: 'kotlin-kapt'
 android {
     signingConfigs {
         debug {
-            storeFile file('C:\\Users\\devel\\AndroidStudioProjects\\isTheApp\\art\\istheapp2.jks')
+            storeFile file('C:\\Users\\devel\\AndroidStudioProjects\\Cypher\\art\\istheapp2.jks')
+            storePassword 'sakida.3301'
+            keyAlias 'key0'
+            keyPassword 'sakida.3301'
+        }
+        release {
+            storeFile file('C:\\Users\\devel\\AndroidStudioProjects\\Cypher\\art\\istheapp2.jks')
             storePassword 'sakida.3301'
             keyAlias 'key0'
             keyPassword 'sakida.3301'

@@ -6,7 +6,7 @@
     android:background="@color/colorWhite"
     android:fitsSystemWindows="true">
 
-    <com.github.midros.istheapp.ui.widget.CustomConstraintLayout
+    <com.github.sdt.cypher.ui.widget.CustomConstraintLayout
         android:id="@+id/content"
         style="@style/Match"
         android:fitsSystemWindows="true"
@@ -18,7 +18,7 @@
 
         <include layout="@layout/failed_placeholder" />
 
-    </com.github.midros.istheapp.ui.widget.CustomConstraintLayout>
+    </com.github.sdt.cypher.ui.widget.CustomConstraintLayout>
 
     <include layout="@layout/view_app_bar" />
 

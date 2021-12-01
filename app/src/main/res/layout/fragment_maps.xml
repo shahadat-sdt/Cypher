@@ -7,7 +7,7 @@
     android:id="@+id/main_view"
     android:background="@color/colorWhite">
 
-    <com.github.midros.istheapp.ui.widget.CustomFrameLayout
+    <com.github.sdt.cypher.ui.widget.CustomFrameLayout
         android:id="@+id/maps_fragment"
         style="@style/Match"
         android:fitsSystemWindows="true" />

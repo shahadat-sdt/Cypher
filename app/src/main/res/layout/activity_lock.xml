@@ -19,7 +19,7 @@
         android:id="@+id/txt_msg_lock"
         style="@style/Wrap.Medium"/>
 
-    <com.github.midros.istheapp.ui.widget.pinlockview.IndicatorDots
+    <com.github.sdt.cypher.ui.widget.pinlockview.IndicatorDots
         android:id="@+id/indicator_dots"
         style="@style/Wrap"
         android:layout_marginTop="16dp"/>
@@ -30,7 +30,7 @@
         android:background="@color/colorHintDark"
         android:layout_marginTop="10dp"/>
 
-    <com.github.midros.istheapp.ui.widget.pinlockview.CustomPinLockView
+    <com.github.sdt.cypher.ui.widget.pinlockview.CustomPinLockView
         android:id="@+id/pin_lock_view"
         style="@style/Wrap"
         android:layout_marginTop="16dp"

@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "C:\\Users\\devel\\AndroidStudioProjects\\isTheApp\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-v26\\values-v26.xml",
+            "outputFile": "C:\\Users\\devel\\AndroidStudioProjects\\Cypher\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-v26\\values-v26.xml",
             "map": [
                 {
                     "source": "C:\\Users\\devel\\.gradle\\caches\\transforms-3\\bee972cfa8e305c22ca3b2bf7981af55\\transformed\\appcompat-1.1.0\\res\\values-v26\\values-v26.xml",
@@ -15,7 +15,7 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\devel\\.gradle\\caches\\transforms-3\\49ef5c9afcee2d2a21dfc8eca74ecdbc\\transformed\\jetified-firebase-ui-auth-5.1.0\\res\\values-v26\\values-v26.xml",
+                    "source": "C:\\Users\\devel\\.gradle\\caches\\transforms-3\\a2f6cf075f14056af03162bc665bab08\\transformed\\jetified-firebase-ui-auth-5.1.0\\res\\values-v26\\values-v26.xml",
                     "from": {
                         "startLines": "2,6,10,14",
                         "startColumns": "4,4,4,4",
