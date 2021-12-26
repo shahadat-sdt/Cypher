@@ -1,9 +1,10 @@
 <component name="libraryTable">
   <library name="Gradle: com.jaredrummler:android-device-names:1.1.9@aar">
     <CLASSES>
-      <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/82244f3ec64957ec8ca27485176ba47b/transformed/jetified-android-device-names-1.1.9/jars/classes.jar!/" />
       <root url="file://$USER_HOME$/.gradle/caches/transforms-3/82244f3ec64957ec8ca27485176ba47b/transformed/jetified-android-device-names-1.1.9/res" />
-      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/82244f3ec64957ec8ca27485176ba47b/transformed/jetified-android-device-names-1.1.9/AndroidManifest.xml" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/edc8eb6016de46ec9b021ef965f4d0bd/transformed/jetified-android-device-names-1.1.9/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/edc8eb6016de46ec9b021ef965f4d0bd/transformed/jetified-android-device-names-1.1.9/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/edc8eb6016de46ec9b021ef965f4d0bd/transformed/jetified-android-device-names-1.1.9/AndroidManifest.xml" />
     </CLASSES>
     <JAVADOC>
       <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.jaredrummler/android-device-names/1.1.9/25a4f9285f6931b13f2a0e6d7b26a8c988948c8c/android-device-names-1.1.9-javadoc.jar!/" />

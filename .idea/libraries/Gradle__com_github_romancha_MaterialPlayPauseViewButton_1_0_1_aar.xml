@@ -1,9 +1,12 @@
 <component name="libraryTable">
   <library name="Gradle: com.github.romancha:MaterialPlayPauseViewButton:1.0.1@aar">
     <CLASSES>
-      <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/74da1f12c48544e33b3cfea589870bbe/transformed/jetified-MaterialPlayPauseViewButton-1.0.1/jars/classes.jar!/" />
-      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/74da1f12c48544e33b3cfea589870bbe/transformed/jetified-MaterialPlayPauseViewButton-1.0.1/res" />
-      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/74da1f12c48544e33b3cfea589870bbe/transformed/jetified-MaterialPlayPauseViewButton-1.0.1/AndroidManifest.xml" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/81cc1176ee42b54b6286608545f2c94e/transformed/jetified-MaterialPlayPauseViewButton-1.0.1/res" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/81cc1176ee42b54b6286608545f2c94e/transformed/jetified-MaterialPlayPauseViewButton-1.0.1/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/81cc1176ee42b54b6286608545f2c94e/transformed/jetified-MaterialPlayPauseViewButton-1.0.1/AndroidManifest.xml" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/fd9b30f19d74a1a8eed31b6df25e866e/transformed/jetified-MaterialPlayPauseViewButton-1.0.1/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/fd9b30f19d74a1a8eed31b6df25e866e/transformed/jetified-MaterialPlayPauseViewButton-1.0.1/AndroidManifest.xml" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/fd9b30f19d74a1a8eed31b6df25e866e/transformed/jetified-MaterialPlayPauseViewButton-1.0.1/res" />
     </CLASSES>
     <JAVADOC>
       <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.github.romancha/MaterialPlayPauseViewButton/1.0.1/e7b623ad5be64c3dc9c8c452ccb260a3bfcee863/MaterialPlayPauseViewButton-1.0.1-javadoc.jar!/" />

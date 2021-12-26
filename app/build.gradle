@@ -82,7 +82,7 @@ dependencies {
     //CircleImageView
     implementation 'de.hdodenhof:circleimageview:2.2.0'
 
-    //floatinbutton
+    //floatingbutton
     implementation 'com.github.clans:fab:1.6.4'
 
     //spinner

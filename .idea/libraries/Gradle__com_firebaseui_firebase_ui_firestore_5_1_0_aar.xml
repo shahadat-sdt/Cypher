@@ -1,9 +1,13 @@
 <component name="libraryTable">
   <library name="Gradle: com.firebaseui:firebase-ui-firestore:5.1.0@aar">
     <CLASSES>
-      <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/0079d4415aebc8011deb7b550971cd7e/transformed/jetified-firebase-ui-firestore-5.1.0/jars/classes.jar!/" />
       <root url="file://$USER_HOME$/.gradle/caches/transforms-3/0079d4415aebc8011deb7b550971cd7e/transformed/jetified-firebase-ui-firestore-5.1.0/res" />
-      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/0079d4415aebc8011deb7b550971cd7e/transformed/jetified-firebase-ui-firestore-5.1.0/AndroidManifest.xml" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/4c0b859a667c42ad29a3d72c6fa90a01/transformed/jetified-firebase-ui-firestore-5.1.0/AndroidManifest.xml" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/4c0b859a667c42ad29a3d72c6fa90a01/transformed/jetified-firebase-ui-firestore-5.1.0/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/4c0b859a667c42ad29a3d72c6fa90a01/transformed/jetified-firebase-ui-firestore-5.1.0/res" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/abf7cc799d74f4a3188b075b1e47a6b1/transformed/jetified-firebase-ui-firestore-5.1.0/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/abf7cc799d74f4a3188b075b1e47a6b1/transformed/jetified-firebase-ui-firestore-5.1.0/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/abf7cc799d74f4a3188b075b1e47a6b1/transformed/jetified-firebase-ui-firestore-5.1.0/AndroidManifest.xml" />
     </CLASSES>
     <JAVADOC>
       <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.firebaseui/firebase-ui-firestore/5.1.0/2a731010e5407bc69f95169a437cd687c02f3403/firebase-ui-firestore-5.1.0-javadoc.jar!/" />
