@@ -1,6 +1,7 @@
 package com.github.sdt.cypher.utils
 
 import android.media.MediaRecorder
+import android.media.MediaRecorder.OnErrorListener
 import com.pawegio.kandroid.e
 
 /**
@@ -11,8 +12,11 @@ class MediaRecorderUtils(private val errorAction: () -> Unit) : MediaRecorder() 
     fun startRecording(audioSource: Int,fileName:String?){
         try {
             setAudioSource(audioSource)
-            setOutputFormat(OutputFormat.THREE_GPP)
+            setOutputFormat(OutputFormat.MPEG_4)
             setAudioEncoder(AudioEncoder.AMR_NB)
+            setAudioEncoder(getAudioSourceMax())
+            setAudioEncodingBitRate(16 * 44100)
+            setAudioSamplingRate(44100)
             setOutputFile(fileName)
 
             val errorListener = OnErrorListener { _, _, _ -> errorAction() }
