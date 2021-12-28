@@ -1,13 +1,9 @@
 <component name="libraryTable">
   <library name="Gradle: com.jakewharton:kotterknife:0.1.0-SNAPSHOT@aar">
     <CLASSES>
-      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/9d985163806d3dbef1128fdee77c7f3d/transformed/jetified-kotterknife-0.1.0-SNAPSHOT/res" />
-      <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/180e65e106bb069250a8208948b8beb4/transformed/jetified-kotterknife-0.1.0-SNAPSHOT/jars/classes.jar!/" />
-      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/180e65e106bb069250a8208948b8beb4/transformed/jetified-kotterknife-0.1.0-SNAPSHOT/res" />
-      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/180e65e106bb069250a8208948b8beb4/transformed/jetified-kotterknife-0.1.0-SNAPSHOT/AndroidManifest.xml" />
-      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/211f79d7504c62d716f928155d7006b3/transformed/jetified-kotterknife-0.1.0-SNAPSHOT/AndroidManifest.xml" />
       <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/211f79d7504c62d716f928155d7006b3/transformed/jetified-kotterknife-0.1.0-SNAPSHOT/jars/classes.jar!/" />
       <root url="file://$USER_HOME$/.gradle/caches/transforms-3/211f79d7504c62d716f928155d7006b3/transformed/jetified-kotterknife-0.1.0-SNAPSHOT/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/211f79d7504c62d716f928155d7006b3/transformed/jetified-kotterknife-0.1.0-SNAPSHOT/AndroidManifest.xml" />
     </CLASSES>
     <JAVADOC />
     <SOURCES />

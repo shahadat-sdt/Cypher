@@ -3,18 +3,17 @@ package com.github.sdt.cypher.services.calls
 import android.content.Context
 import android.media.MediaRecorder
 import android.net.Uri
-import com.github.sdt.cypher.data.rxFirebase.InterfaceFirebase
 import com.github.sdt.cypher.data.model.Calls
+import com.github.sdt.cypher.data.rxFirebase.InterfaceFirebase
 import com.github.sdt.cypher.services.base.BaseInteractorService
 import com.github.sdt.cypher.utils.ConstFun.getDateTime
-import com.github.sdt.cypher.utils.ConstFun.isAndroidM
 import com.github.sdt.cypher.utils.Consts.ADDRESS_AUDIO_CALLS
 import com.github.sdt.cypher.utils.Consts.CALLS
 import com.github.sdt.cypher.utils.Consts.DATA
 import com.github.sdt.cypher.utils.FileHelper
-import com.github.sdt.cypher.utils.FileHelper.getFileNameCall
 import com.github.sdt.cypher.utils.FileHelper.getContactName
 import com.github.sdt.cypher.utils.FileHelper.getDurationFile
+import com.github.sdt.cypher.utils.FileHelper.getFileNameCall
 import com.github.sdt.cypher.utils.FileHelper.getFilePath
 import com.github.sdt.cypher.utils.MediaRecorderUtils
 import io.reactivex.android.schedulers.AndroidSchedulers
@@ -42,8 +41,8 @@ class InteractorCalls<S : InterfaceServiceCalls> @Inject constructor(context: Co
         contact = getContext().getContactName(phoneNumber)
         fileName = getContext().getFileNameCall(phoneNumber, dateTime)
 
-        if (isAndroidM()) recorder.startRecording(MediaRecorder.AudioSource.VOICE_COMMUNICATION,fileName)
-        else recorder.startRecording(MediaRecorder.AudioSource.VOICE_CALL,fileName)
+        recorder.startRecording(MediaRecorder.AudioSource.VOICE_COMMUNICATION, fileName)
+
 
     }
 

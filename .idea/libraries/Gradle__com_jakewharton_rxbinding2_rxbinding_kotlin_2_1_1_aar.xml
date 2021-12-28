@@ -1,12 +1,8 @@
 <component name="libraryTable">
   <library name="Gradle: com.jakewharton.rxbinding2:rxbinding-kotlin:2.1.1@aar">
     <CLASSES>
-      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/3373f3ad9055e07031ea6d9730c625f0/transformed/jetified-rxbinding-kotlin-2.1.1/res" />
-      <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/bad276c425e8e228160cd511da2ae794/transformed/jetified-rxbinding-kotlin-2.1.1/jars/classes.jar!/" />
-      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/bad276c425e8e228160cd511da2ae794/transformed/jetified-rxbinding-kotlin-2.1.1/res" />
-      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/bad276c425e8e228160cd511da2ae794/transformed/jetified-rxbinding-kotlin-2.1.1/AndroidManifest.xml" />
-      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/d96923bdb6771d990263f8503519978f/transformed/jetified-rxbinding-kotlin-2.1.1/res" />
       <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/d96923bdb6771d990263f8503519978f/transformed/jetified-rxbinding-kotlin-2.1.1/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/d96923bdb6771d990263f8503519978f/transformed/jetified-rxbinding-kotlin-2.1.1/res" />
       <root url="file://$USER_HOME$/.gradle/caches/transforms-3/d96923bdb6771d990263f8503519978f/transformed/jetified-rxbinding-kotlin-2.1.1/AndroidManifest.xml" />
     </CLASSES>
     <JAVADOC>

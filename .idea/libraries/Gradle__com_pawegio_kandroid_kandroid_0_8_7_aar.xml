@@ -1,13 +1,9 @@
 <component name="libraryTable">
   <library name="Gradle: com.pawegio.kandroid:kandroid:0.8.7@aar">
     <CLASSES>
-      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/a5ba313dbf6b0a8113ef81a21973e1c1/transformed/jetified-kandroid-0.8.7/res" />
-      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/8291281d7706949ceb7ddefe53e713e0/transformed/jetified-kandroid-0.8.7/res" />
-      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/8291281d7706949ceb7ddefe53e713e0/transformed/jetified-kandroid-0.8.7/AndroidManifest.xml" />
-      <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/8291281d7706949ceb7ddefe53e713e0/transformed/jetified-kandroid-0.8.7/jars/classes.jar!/" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/24808b041420ef487620429c40617375/transformed/jetified-kandroid-0.8.7/jars/classes.jar!/" />
       <root url="file://$USER_HOME$/.gradle/caches/transforms-3/24808b041420ef487620429c40617375/transformed/jetified-kandroid-0.8.7/res" />
       <root url="file://$USER_HOME$/.gradle/caches/transforms-3/24808b041420ef487620429c40617375/transformed/jetified-kandroid-0.8.7/AndroidManifest.xml" />
-      <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/24808b041420ef487620429c40617375/transformed/jetified-kandroid-0.8.7/jars/classes.jar!/" />
     </CLASSES>
     <JAVADOC>
       <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.pawegio.kandroid/kandroid/0.8.7/bfaa9951a243ed4b5d21ef0b38cb03e4ce3bb6d4/kandroid-0.8.7-javadoc.jar!/" />
